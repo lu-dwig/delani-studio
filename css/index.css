@@ -1,0 +1,13 @@
+.toogled{
+    text-align: center;
+}
+/* 
+.click-it{
+    text-align: center;
+} */
+.design-details,.develop-details,.product-details{
+    display: none;
+} 
+.move-me{ 
+   display: none; 
+} 

@@ -1,0 +1,71 @@
+$(document).ready(function(){
+    $(".design").click(function(){
+        $(".design-details").toggle();
+        $(".design").hide();
+    })
+    $(".design-details").click(function(){
+        $(".design").toggle();
+        $(".design-details").hide();
+    })
+    $(".develop").click(function(){
+        $(".develop-details").toggle();
+        $(".develop").hide();
+    })
+    $(".develop-details").click(function(){
+        $(".develop").toggle();
+        $(".develop-details").hide();
+    })
+    $(".product").click(function(){
+        $(".product-details").toggle();
+        $(".product").hide();
+    })
+    $(".product-details").click(function(){
+        $(".product").toggle();
+        $(".product-details").hide();
+    })
+});
+
+$(document).ready(function(){
+    $("#hover1").hover(function(){
+        $("#hover-it1").show();
+    },function(){
+        $("hover-it1").hide();
+    })
+    $("#hover2").hover(function(){
+        $("#hover-it2").show();
+    },function(){
+        $("hover-it2").hide();
+    })
+    $("#hover3").hover(function(){
+        $("#hover-it3").show();
+    },function(){
+        $("hover-it3").hide();
+    })
+    $("#hover4").hover(function(){
+        $("#hover-it4").show();
+    },function(){
+        $("hover-it4").hide();
+    })
+    $("#hover5").hover(function(){
+        $("#hover-it5").show();
+    },function(){
+        $("hover-it5").hide();
+    })
+    $("#hover6").hover(function(){
+        $("#hover-it6").show();
+    },function(){
+        $("hover-it6").hide();
+    })
+    $("#hover7").hover(function(){
+        $("#hover-it7").show();
+    },function(){
+        $("hover-it7").hide();
+    })
+    $("#hover8").hover(function(){
+        $("#hover-it8").show();
+    },function(){
+        $("hover-it8").hide();
+    })
+
+
+});
