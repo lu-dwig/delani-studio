@@ -2,15 +2,16 @@
     background-position: center;
     background-size: cover;
     text-align: center;
-    padding-top: 20px ;
+    padding-top: 200px ;
     color: white;
-    height: 40vh;
+    height: 70vh;
+    background-repeat: no-repeat;
 
 }
 #mouse-click{
-    padding-top: 25px;
-    margin-top: 10px;
-    padding-bottom: 40px;
+    padding-top: 215px;
+    margin: 10px;
+    /* padding-bottom: 20px; */
     animation: bounce 2s infinite;
 }
 @keyframes bounce {
