@@ -92,7 +92,7 @@ input[type=text],textarea[type=textarea],#comment{
 }
 @media screen and (min-width: 768px) {
   body {
-    background-color: yellowgreen;
+    background-color: white;
   }
   .column {
     width: 220px;
