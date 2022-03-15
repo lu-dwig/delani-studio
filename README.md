@@ -9,11 +9,12 @@
 <p>This project is a web application for Delani studio that shows details about the services it offers, has information about the studio, a portfolio section and a form that enables users to send their messages and concern to Delani studios.</p>
 
 ## screenshot
-<img src="images/screenshot1.png" width="920px" height="450px">
+<img src="images/screenshot1.png" width="850px" height="450px">
 
 ## Live Page 
 
-https://github.com/lu-dwig/delani-studio.git
+https://lu-dwig.github.io/delani-studio/
+
 
 ## Installation / Setup instruction
 * Open Terminal {Ctrl+Alt+T}
