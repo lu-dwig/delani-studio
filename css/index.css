@@ -1,3 +1,45 @@
+.welcome{
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 20px ;
+    color: white;
+    height: 40vh;
+
+}
+#mouse-click{
+    padding-top: 25px;
+    margin-top: 10px;
+    padding-bottom: 40px;
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-55px);
+    }
+    60% {
+      transform: translateY(-45px);
+    }
+  }
+.about{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+.services{
+    text-align: center;
+    padding-top: 65px;
+    margin-bottom: 80px;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
 .toogled{
     text-align: center;
 }
@@ -10,4 +52,38 @@
 } 
 .move-me{ 
    display: none; 
+}
+footer{
+    text-align: center;
 } 
+.contactme{
+    background-position: center center;
+    text-align: center;
+    padding-top: 65px;
+    margin-bottom: 80px;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+
+}
+input[type=text],input[type=email],#comment{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Copse', serif;
+}
+input[type=text],input[type=name],#comment{
+    background: transparent;
+    color: white;
+    }
+input[type=text],textarea[type=textarea],#comment{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Copse', serif;
+  }
+
+
+ 
