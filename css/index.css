@@ -4,7 +4,7 @@
     text-align: center;
     padding-top: 200px ;
     color: white;
-    height: 90vh;
+    height: 80vh;
     background-repeat: no-repeat;
 
 }
@@ -80,14 +80,14 @@ textarea[type=text],textarea[type=textarea],#comment{
     background: transparent;
     color: white;
     font-size: 20px;
-    /* font-family: 'Copse', serif; */
+    font-family: 'Copse', serif;
 }
 .button{
   border-radius: 10px 10px 0px 10px;
   border: 2px yellowgreen;
-  position:center;
-  padding-left: 25%;
-  background: transparent;
+  position:relative;
+  background: palevioletred;
+
 }
 
 footer{
