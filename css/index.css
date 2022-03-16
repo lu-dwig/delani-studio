@@ -4,14 +4,13 @@
     text-align: center;
     padding-top: 200px ;
     color: white;
-    height: 70vh;
+    height: 90vh;
     background-repeat: no-repeat;
 
 }
 #mouse-click{
     padding-top: 215px;
     margin: 10px;
-    /* padding-bottom: 20px; */
     animation: bounce 2s infinite;
 }
 @keyframes bounce {
@@ -33,36 +32,28 @@
 }
 .services{
     text-align: center;
-    padding-top: 65px;
+    padding-top: 85px;
     margin-bottom: 80px;
     color: white;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 30vh;
+    height: 50vh;
 }
 .toogled{
     text-align: center;
 }
-/* 
-.click-it{
-    text-align: center;
-} */
+.folio{
+  text-align: center;
+}
 .design-details,.develop-details,.product-details{
     display: none;
+}
+.row{
+  display: flex;
 } 
-.move-me{ 
-   display: none; 
-}
-.hover-it {
-  opacity:0;
-  background-color: rgba(255, 255, 255, 0.623);
-  position: absolute;
-  top:25%;
-  bottom:25%;
-  left:25%;
-  right:25%; 
-}
+
+
 .contactme{
     background-position: center center;
     text-align: center;
@@ -91,6 +82,14 @@ textarea[type=text],textarea[type=textarea],#comment{
     font-size: 20px;
     /* font-family: 'Copse', serif; */
 }
+.button{
+  border-radius: 10px 10px 0px 10px;
+  border: 2px yellowgreen;
+  position:center;
+  padding-left: 25%;
+  background: transparent;
+}
+
 footer{
   text-align: center;
 } 
@@ -101,12 +100,6 @@ footer{
     }
 }
 
-.submit{
-  border-radius: 10px;
-  position:center;
-  padding-left: 25%;
-  background: transparent;
-}
 @media screen and (min-width: 768px) {
   body {
     background-color: white;
