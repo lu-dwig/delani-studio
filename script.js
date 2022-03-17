@@ -24,86 +24,24 @@ $(document).ready(function(){
         $(".product-details").hide();
     })
 });
- 
 
-
-
-
-
-
-
-
-
- $(document).ready(function(){
-   $("#hover1").hover(function(){
-    $("#hover-it1").show();
-     },function(){
-      $("#hover-it").hide();
-     })
-     $("#hover2").hover(function(){
-      $("#hover-it").show();
-     },function(){
-      $("hover-it").hide();
-     })
-     $("#hover3").hover(function(){
-      $("#hover-it3").show();
-     },function(){
-      $("hover-it3").hide();
-     })
-     $("#hover4").hover(function(){
-       $("#hover-it4").show();
-     },function(){
-       $("hover-it4").hide();
-     })
-     $("#hover5").hover(function(){
-       $("#hover-it5").show();
-     },function(){
-       $("hover-it5").hide();
-     })
-     $("#hover6").hover(function(){
-       $("#hover-it6").show();
-     },function(){
-       $("hover-it6").hide();
-     })
-     $("#hover7").hover(function(){
-       $("#hover-it").show();
-     },function(){
-       $("hover-it").hide();
-     })
-     $("#hover8").hover(function(){
-       $("#hover-it").show();
-     },function(){
-       $("hover-it8").hide();
-     })
- }); 
-
-
-
- /* $(".hover").hover(function(){
-     $(this).animate({opacity:'1'});
-   },
-   function(){
-     $(this).animate({opacity:'0'});
-   }) */
+//  $(".Hover").hover(function(){
+  //  $(this).animate({opacity:'1'});
+//  },
+//  function(){
+  //  $(this).animate({opacity:'0'});
+//  }) 
 
    
-   $(".work-image").mousemove(function (e) {
-    var hovertext = $(this).attr("hovertext");
-    $(this).css("border", "2px solid grey", "border", "11px solid white");
-    $(".display").text(hovertext).show().offset($(this).offset());
-  
-  }).mouseout(function () {
-    $(this).css("border", "none");
-    $('.display').hide()
-  });
-
-
-
-
-
-
-
-
+$(".Hover").mousemove(function (e) {
+   var hovertext = $(this).attr("hovertext");
+   $(this).css("border", "2px solid grey", "border", "11px solid white");
+   $(".display").text(hovertext).show().offset($(this).offset());
+   
+   }).mouseout(function () {
+   $(this).css("border", "none");
+   $('.display').hide()
+   });
 
 
 $(".button").click(function () {
@@ -111,6 +49,7 @@ $(".button").click(function () {
   var Name = $("#me-name").val();
   var Email = $("#me-email").val();
   var Message = $("#the-comment");
+
     if (Name == '' || Email == '' || Message == '') {
       alert('Please make sure you have filled in the form correctly!');
   } else {

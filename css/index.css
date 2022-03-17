@@ -50,44 +50,38 @@
 .folio{
   text-align: center;
 }
-.row{
+.row1{
+  padding: 1.8%;
   display: flex;
-} 
-.hover{
-    opacity:0;
-    background-color: rgba(255, 255, 255, 0.623);
-    position: absolute;
-    top:25%;
-    bottom:25%;
-    left:25%;
-    right:25%; 
-    height: 280px;
-    max-width: 280px;
-    padding:2px;
-}
-#hover-it1,#hover-it2,#hover-it3,#hover-it4,#hover-it5,#hover-it6,#hover-it7,#hover-it8{
-  display: none;
-  color: black;
-  width: 100%;
-  height: 100%;
-  background-color:rgba(255, 255, 255, 0.456);
-  /* position:absolute; */
-  top: 20px;
-  left: 35px;
-  font-weight: bold;
-  text-align: center;
-  font-size: 20px;
-  /* padding-top: 50%; */
-  font-family: 'Delius Swash Caps', cursive;
+  flex-direction: row;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.row2{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.8%;
+}
+.hover{
+     opacity:0;
+     background-color: rgba(255, 255, 255, 0.623);
+     position: absolute;
+     top:25%; 
+     bottom:25%;
+     left:25%;
+     right:25%;
+} 
 #display{
   color: yellowgreen;
   background-color: aliceblue;
   padding: 5px;
   position: absolute;
   font-size: 30px;
-
 }
 
 .contactme{
