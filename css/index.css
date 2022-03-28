@@ -4,7 +4,7 @@
     text-align: center;
     padding-top: 200px ;
     color: white;
-    height: 80vh;
+    height: 100vh;
     background-repeat: no-repeat;
 
 }
@@ -67,15 +67,17 @@
   margin-right: auto;
   padding: 1.8%;
 }
-.hover{
-     opacity:0;
-     background-color: rgba(255, 255, 255, 0.623);
-     position: absolute;
-     top:25%; 
-     bottom:25%;
-     left:25%;
-     right:25%;
-} 
+
+.fade{
+  position: relative;
+  top: -150px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: brown;
+  /* display: none; */
+}
+
 #display{
   color: yellowgreen;
   background-color: aliceblue;
